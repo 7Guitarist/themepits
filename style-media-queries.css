@@ -1,0 +1,1072 @@
+/*******************************************************
+*
+* Mobile styles and other media queries
+*
+*******************************************************/
+
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */
+
+@media only screen and (min-width: 992px) {
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Selling Region */
+
+  /*#endregion Selling Region */
+
+  /*#region Areas Region */
+  .hp-areas .area-mobile {
+    display: none;
+  }
+  /*#endregion Areas Region */
+
+  /*#region Quick Search Region */
+
+  /* .quick-search-form {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    max-width: 1180px;
+    margin: 0 auto;
+    gap: 2px;
+    align-items: center;
+  }
+  .primary-qs-item {
+    grid-column: 1/14;
+  }
+  .secondary-qs-item {
+    grid-column: 15/30;
+  }
+  .tertiary-qs-item {
+    grid-column: 30/44;
+  }
+  .fourth-qs-item {
+    grid-column: 44/52;
+  }
+  .fifth-qs-item {
+    grid-column: 52/60;
+  }
+  .sixth-qs-item {
+    grid-column: 60/68;
+  }
+  .seventh-qs-item {
+    grid-column: 68/76;
+  }
+  .eighth-qs-item {
+    grid-column: 77/89;
+  }
+  .ninth-qs-item {
+    grid-column: 89/-1;
+  } */
+
+  /*#endregion Quick Search Region */
+
+  /*#region Welcome Region */
+
+  .region-welcome-container {
+    display: grid;
+    max-width: 1312px;
+    grid-template-columns: repeat(100, 1fr);
+    margin: 0 auto;
+  }
+
+  .welcome-primary-section {
+    grid-column: 1/45;
+    margin-top: 7px;
+  }
+  .welcome-secondary-section {
+    grid-column: 47/-1;
+  }
+
+  /*#endregion Welcome Region */
+
+  /*#region Performance Region */
+
+  .performance-content {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .performance-item:nth-of-type(1) {
+    grid-column: 1 / 24;
+  }
+  .performance-item:nth-of-type(2) {
+    grid-column: 24 / 52;
+  }
+  .performance-item:nth-of-type(3) {
+    grid-column: 52 / 76;
+    margin-top: 21px;
+  }
+  .performance-item:nth-of-type(4) {
+    grid-column: 79 / -1;
+  }
+
+  /*#endregion Performance Region */
+
+  /*#region Team Region */
+  .region-team-container {
+    display: grid;
+    max-width: 1300px;
+    grid-template-columns: repeat(100, minmax(0, 1fr));
+    margin: 0 auto;
+  }
+  .team-primary-container {
+    margin-top: 27px;
+
+    grid-column: 1/36;
+  }
+  .team-slick {
+    grid-column: 42/-1;
+  }
+  /*#endregion Team Region */
+
+  /*#region Cta Region */
+
+  .cta-gallery-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1400px;
+    grid-row-gap: 19px;
+    grid-column-gap: 19px;
+    margin: 0 auto;
+  }
+
+  /*#endregion Cta Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region App Region */
+  .region-app-container {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    max-width: 1220px;
+    margin: 0 auto;
+    align-items: end;
+  }
+  .app-primary-section {
+    grid-column: 1/37;
+    grid-row: 1;
+  }
+  .app-secondary-section {
+    grid-column: 21/58;
+    grid-row: 1;
+    z-index: 1;
+  }
+  .app-tertiary-section {
+    grid-column: 60/-1;
+    align-self: start;
+    grid-row: 1;
+    z-index: 1;
+  }
+
+  /*#endregion App Region */
+
+  /*#region Social Region */
+  .region-social-container {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .social-primary-section {
+    grid-column: 1/35;
+  }
+
+  .social-gallery-image-container {
+    grid-column: 37/-1;
+  }
+  .social-gallery-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1250px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin: 0 auto;
+    padding-left: 40px;
+    position: relative;
+  }
+
+  .social-email {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    transform: translateY(-50%) rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  /*#endregion Social Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  .footer-top {
+    max-width: 1286px;
+    margin: 0 auto 53px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+  }
+
+  /* .footer-contact {
+    grid-column: 1/29;
+    margin-top: 90px;
+  } */
+  .footer-top .textwidget:first-child {
+    grid-column: 1/29;
+    margin-top: 90px;
+  }
+
+  /* .footer-group {
+    grid-column: 37/65;
+  } */
+  .footer-top .textwidget:nth-child(2) {
+    grid-column: 37/65;
+  }
+
+  .footer-nav {
+    grid-column: 74/-1;
+    margin-top: 90px;
+  }
+
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1450px) {
+  /* 1367 */
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Selling Region */
+
+  /*#endregion Selling Region */
+
+  /*#region Areas Region */
+
+  /*#endregion Areas Region */
+
+  /*#region Quick Search Region */
+
+  /*#endregion Quick Search Region */
+
+  /*#region Welcome Region */
+
+  /*#endregion Welcome Region */
+
+  /*#region Performance Region */
+
+  /*#endregion Performance Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Cta Region */
+
+  /*#endregion Cta Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region App Region */
+
+  /*#endregion App Region */
+
+  /*#region Social Region */
+
+  /*#endregion Social Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1366px) {
+  /*#region Global */
+  .header .navigation #nav {
+    font-size: 11px;
+  }
+
+  .header.show-fixed #nav .sub-menu {
+    padding-top: 46px;
+  }
+  .hp-sidebar .comp-social-sidebar {
+    z-index: 1040;
+  }
+
+  .hp-sidebar .comp-social-sidebar a {
+    width: 32px;
+    height: 32px;
+  }
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Selling Region */
+  .selling-group {
+    gap: 23px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .selling-content {
+    font-size: 11px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .selling-content span {
+    font-size: 19px;
+  }
+  /*#endregion Selling Region */
+
+  /*#region Areas Region */
+
+  /*#endregion Areas Region */
+
+  /*#region Quick Search Region */
+  .hp-quick-search .quick-search-form .form-separator {
+    margin-right: 35px;
+  }
+  .hp-quick-search .form-lg,
+  .hp-quick-search .form-md,
+  .hp-quick-search .mr {
+    margin-right: 7px;
+  }
+  /*#endregion Quick Search Region */
+
+  /*#region Welcome Region */
+  .hp-welcome .site-title em {
+    font-size: 50px;
+  }
+  /*#endregion Welcome Region */
+
+  /*#region Performance Region */
+
+  /*#endregion Performance Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Cta Region */
+
+  /*#endregion Cta Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region App Region */
+
+  /*#endregion App Region */
+
+  /*#region Social Region */
+  .hp-social .site-title em {
+    font-size: 45px;
+  }
+  /*#endregion Social Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  .footernav li:nth-child(1)::before,
+  .footernav li:nth-child(2)::before,
+  .footernav li:nth-child(3)::before,
+  .footernav li:nth-child(4)::before {
+    width: 90px;
+  }
+
+  .footernav {
+    column-gap: 50px;
+  }
+
+  .footernav a {
+    white-space: nowrap;
+  }
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1199px) {
+  /*#region Global */
+  .header .navigation #nav > li:not(:last-child) > a::before {
+    right: -15px;
+  }
+  .header .navigation #nav {
+    font-size: 9px;
+    gap: 30px;
+  }
+  .header.show-fixed #nav .sub-menu {
+    padding-top: 47px;
+  }
+
+  .hp-sidebar .comp-social-sidebar {
+    gap: 7px;
+  }
+
+  .message-content {
+    z-index: 1030 !important;
+  }
+
+  /*#endregion Global */
+
+  /* Sidebar */
+  .sidebar .welcome-smi {
+    gap: 8px;
+  }
+  .sidebar .welcome-smi a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .welcome-contact-item em,
+  .welcome-contact-item a,
+  .welcome-contact-item .location {
+    font-size: 9px;
+  }
+  .sidebar .site-title em {
+    font-size: 22px;
+  }
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Selling Region */
+  .selling-content {
+    font-size: 9px;
+    width: 136px;
+    height: 136px;
+  }
+  .selling-content span {
+    font-size: 14px;
+  }
+
+  .selling-content.lg span {
+    font-size: 22px;
+  }
+  /*#endregion Selling Region */
+
+  /*#region Areas Region */
+
+  /*#endregion Areas Region */
+
+  /*#region Quick Search Region */
+  .hp-quick-search .quick-search-form .form-separator {
+    margin-right: 24px;
+  }
+  .quick-search-form select,
+  .quick-search-form input {
+    font-size: 9px;
+  }
+  .form-btn button,
+  .form-btn a {
+    font-size: 10px;
+  }
+  .form-separator::before {
+    right: -13px;
+  }
+  /*#endregion Quick Search Region */
+
+  /*#region Welcome Region */
+  .hp-welcome .site-title em {
+    font-size: 38px;
+  }
+  .hp-welcome .site-title span {
+    font-size: 19px;
+  }
+
+  .hp-welcome .site-btn {
+    font-size: 10px;
+  }
+
+  .welcome-text,
+  .welcome-intro {
+    font-size: 11px;
+  }
+  /*#endregion Welcome Region */
+
+  /*#region Performance Region */
+
+  /*#endregion Performance Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Cta Region */
+
+  /*#endregion Cta Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region App Region */
+  .app-cta-text {
+    line-height: 1.4;
+  }
+
+  .region-app-container {
+    max-width: 840px;
+  }
+  .app-cta {
+    font-size: 14px;
+  }
+  .app-intro {
+    font-size: 19px;
+  }
+  .app-secondary-section {
+    grid-column: 21/55;
+  }
+  /*  */
+  .app-download {
+    margin-bottom: 40px;
+  }
+
+  .app-cta-text {
+    margin-bottom: 30px;
+  }
+  .hp-app .site-title span {
+    font-size: 17px;
+  }
+  .hp-app .site-title {
+    margin-bottom: 21px;
+  }
+  /*#endregion App Region */
+
+  /*#region Social Region */
+  .hp-social .site-title em {
+    font-size: 37px;
+  }
+  /*#endregion Social Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  .footernav a {
+    font-size: 10px;
+  }
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+/* iPad(portrait) | Galaxy Tab 4(portrait) */
+
+@media only screen and (max-width: 991px) {
+  #content-sidebar .sidebar {
+    width: 100%;
+  }
+
+  section,
+  .footer {
+    padding: 30px 24px;
+  }
+
+  /* Siidebar */
+  .welcome-contact-item {
+    justify-content: center;
+  }
+
+  .welcome-contact-item:last-of-type {
+    max-width: 272px;
+    gap: 0;
+  }
+
+  .welcome-contact-item em,
+  .welcome-contact-item a,
+  .welcome-contact-item .location {
+    font-size: 13px;
+  }
+
+  body.is-open {
+    overflow: auto;
+  }
+
+  #pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a {
+    display: none !important;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .hp-sidebar {
+    display: none;
+  }
+
+  /*#region Header */
+
+  header.header {
+    position: relative;
+    margin-top: 53px;
+    background: #111;
+    padding: 25px 15px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /*#endregion Header */
+
+  /* Slideshow */
+  .slideshow-chat,
+  .slideshow-agent img {
+    display: none;
+  }
+  .slideshow-group {
+    position: relative;
+    top: initial;
+    left: initial;
+    background: #333;
+    text-align: center;
+    padding: 50px 15px;
+  }
+
+  .s-btn-group {
+    justify-content: center;
+  }
+  /* #region selling */
+  .selling-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .selling-content {
+    width: 186px;
+    height: 186px;
+  }
+
+  .selling-content {
+    font-size: 12px;
+  }
+
+  .selling-content span {
+    font-size: 22px;
+  }
+  /* #endregion selling */
+  /* #region Welcome */
+  .hp-welcome {
+    padding: 100px 15px;
+  }
+
+  .hp-welcome .site-bg canvas {
+    display: none;
+  }
+  .welcome-primary-section img {
+    margin: 0 auto 40px;
+  }
+
+  .hp-welcome .site-title {
+    justify-content: center;
+  }
+
+  .welcome-secondary-section {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* #endregion Welcome */
+  /* #region team container */
+  .hp-team {
+    padding: 122px 15px 112px;
+  }
+  .hp-team .site-title {
+    justify-content: center;
+  }
+
+  .hp-team .site-bg canvas {
+    display: none;
+  }
+
+  .team-primary-container p {
+    text-align: center;
+  }
+
+  .region-team-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .team-group {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .hp-team .team-content {
+    max-width: 358px;
+    margin: 0 auto;
+  }
+  /* #endregion team container */
+
+  /* Areas */
+  .hp-areas .area-mobile {
+    display: block;
+  }
+  .hp-areas .map-wrap {
+    display: none;
+  }
+
+  .hp-areas .area-mobile .site-title {
+    justify-content: center;
+  }
+  .hp-areas .area-mobile .site-title span::before {
+    left: 56px;
+  }
+  .hp-areas .area-mobile .areas-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .hp-areas .area-mobile .areas-item {
+    margin: 0 auto;
+    width: 100%;
+    max-width: initial;
+  }
+  .hp-areas .site-btn {
+    margin: 0 auto 40px;
+  }
+  /* #region Quicksearch */
+  .hp-quick-search .form-lg,
+  .hp-quick-search .form-md,
+  .hp-quick-search .form-btn {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .quick-search-form {
+    max-width: 700px;
+  }
+  /* #endregion Quicksearch */
+  /* #region cta */
+  .hp-cta {
+    padding: 100px 15px;
+  }
+  .cta-gallery-image-container {
+    max-width: 454px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+  }
+  /* #endregion cta */
+
+  /* #region app */
+  .region-app-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .app-primary-section,
+  .app-secondary-section {
+    grid-row: 1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .app-primary-section {
+    grid-column: 1/-1;
+  }
+
+  .app-secondary-section {
+    grid-column: 47/-1;
+    z-index: 1;
+    align-self: end;
+  }
+
+  .app-tertiary-section {
+    grid-column: 1/-1;
+  }
+
+  .hp-app .site-title {
+    justify-content: center;
+  }
+
+  .app-tertiary-section {
+    text-align: center;
+  }
+
+  .app-text {
+    margin: 0 auto 32px;
+  }
+
+  .app-download {
+    justify-content: center;
+  }
+  /* #endregion app */
+
+  /* #region social */
+  .hp-social .site-title {
+    justify-content: center;
+  }
+
+  .social-primary-section p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .social-gallery-image-container {
+    display: grid;
+    gap: 10px;
+    max-width: 206px;
+    margin: 0 auto;
+  }
+
+  .social-email {
+    text-align: center;
+  }
+  /* #endregion social */
+
+  /* #region Performance */
+  .performance-content {
+    display: grid;
+    gap: 30px;
+  }
+  .performance-content .performance-item:not(:last-child)::before {
+    content: none;
+  }
+  /* #endregion Performance */
+
+  /*#region Contact */
+  .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .contact-form .form-md {
+    width: 100%;
+  }
+
+  .contact-form .pad-left,
+  .contact-form .middle-pad-left,
+  .contact-form .pad-right,
+  .contact-form .middle-pad-right {
+    padding: 0;
+  }
+
+  /*#endregion Contact */
+
+  /* Footer */
+  .footer-top {
+    margin-bottom: 53px;
+  }
+  .footer-contact {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .footer-group {
+    margin-bottom: 40px;
+  }
+
+  .footernav {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .footernav a {
+    font-size: 13px;
+  }
+
+  .footernav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footernav li:nth-child(1),
+  .footernav li:nth-child(2),
+  .footernav li:nth-child(3),
+  .footernav li:nth-child(4) {
+    padding: 0;
+  }
+
+  .footernav li:nth-child(1)::before,
+  .footernav li:nth-child(2)::before,
+  .footernav li:nth-child(3)::before,
+  .footernav li:nth-child(4)::before {
+    content: none;
+  }
+  /* The following are used on inner pages. Please edit carefully. */
+  .aios-mobile-header-wrapper {
+    z-index: 1020 !important;
+  }
+
+  .inner {
+    width: 100%;
+  }
+  #content-sidebar,
+  #content-full {
+    width: 100%;
+  }
+  .outer {
+    width: 100%;
+    min-width: 100%;
+  }
+  #content-sidebar #content {
+    width: 100%;
+  }
+}
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */
+
+@media only screen and (max-width: 767px) {
+  /* 481 */
+
+  /* Selling */
+  .hp-selling .site-title em {
+    font-size: 36px;
+  }
+
+  .hp-selling .site-title span {
+    font-size: 16px;
+  }
+  /* Quicksearch */
+  .hp-quick-search .site-title em {
+    font-size: 28px;
+  }
+
+  /* Welcome */
+  .welcome-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* properties */
+  .region-properties-container {
+    max-width: 530px;
+    margin: 0 auto;
+  }
+
+  /* app */
+  .app-cta {
+    line-height: 1.4;
+  }
+
+  .ip-banner .container {
+    width: 100%;
+  }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
+
+@media only screen and (max-width: 480px) {
+  /*#region Global */
+  .site-title em {
+    font-size: 30px;
+  }
+
+  .site-title span::before {
+    width: 22px;
+    left: 51px;
+  }
+  .site-title span {
+    font-size: 17px;
+    gap: 42px;
+  }
+  /*#endregion Global */
+  .aios-popup-body .site-title em {
+    font-size: 50px;
+    text-align: center;
+  }
+  /* Slideshow */
+  .s-btn-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .slideshow-group em {
+    font-size: 37px;
+  }
+  .hp-selling .site-title em {
+    font-size: 23px;
+  }
+  /* Areas */
+
+  .hp-areas .site-title span {
+    font-size: 12px;
+  }
+  .hp-areas .site-title em {
+    font-size: 32px;
+  }
+
+  /* Quicksearch */
+  .hp-quick-search .site-title em {
+    font-size: 19px;
+  }
+  /* Welcome */
+  .hp-welcome .site-title em {
+    font-size: 21px;
+  }
+
+  .hp-welcome .site-title span {
+    font-size: 14px;
+  }
+  /* performance */
+
+  /* App */
+  .hp-app {
+    padding: 120px 15px 0;
+  }
+  .app-intro {
+    font-size: 17px;
+  }
+
+  .app-download {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Social */
+  .hp-social .site-title em {
+    font-size: 30px;
+  }
+
+  /*#region Footer */
+  .footer-contact-item:last-of-type {
+    max-width: 232px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-contact-item em,
+  .footer-contact-item a,
+  .footer-contact-item .location {
+    font-size: 11px;
+  }
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}

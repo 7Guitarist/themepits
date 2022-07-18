@@ -1,0 +1,77 @@
+Floating Phone & Email: please update to client correct information. [screenshot] DONE -> https://prnt.sc/PrqTQKmSfFwE
+HP In the Area:
+the bullet alignments are not followed on comp. [screenshot] > COMP DONE: https://prnt.sc/x1reIosmsOTu
+
+The hover of the map is not right. [screenshot] please correct. DONE: https://prnt.sc/xk8NUAtimmb0
+
+HP QS: align the button name in the center. [screenshot] DONE -> https://prnt.sc/D9VyDsok0cco
+Footer GIT: placeholders should not be cut. [screenshot] DONE -> https://prnt.sc/eJv7KxBheBAN
+HP FP:
+(If FP layout on HP has more than 1 property) Ask a developer to show screenshots of the featured property widget under the following conditions. All screenshots must look presentable.
+How does the featured property widget look with 1 featured property? Provide a screenshot. -> https://prnt.sc/pHP6IJM4WcsV
+How does the featured property widget look with 2 featured properties? Provide a screenshot. -> https://prnt.sc/pQSlQc-X6Sq_
+How does the featured property widget look with 3 featured properties? Provide a screenshot. -> https://prnt.sc/NsTSUdjumxtY
+
+Previous, Next, pagination and auto scrolling should be working (Slick script should be applied)
+Slick script should be applied on Featured Properties, Featured communities, Blog and Testimonials widgets. ( Not applicable on Featured Properties and Featured Communities with different sizes) DONE
+
+HP Team: this thould not go to 404 page. [screenshot] DONE: https://prnt.sc/BDbQbb30VGTp
+
+Emulator: 922px to 1199px, Emulator: 320px to 991px
+HP QS: placeholders should not be cut. [screenshot] DONE: https://prnt.sc/KC5xiPuyArSJ
+HP Download App: add ample space. [screenshot] DONE: https://prnt.sc/SVRfMFGvttse
+
+Emulator: 922px to 1199px
+HP QS: display this in a single line. [screenshot] DONE: https://prnt.sc/KC5xiPuyArSJ
+
+Emulator: 320px to 991px
+HP In the Area: align the button in the center too. [screenshot] DONE https://prnt.sc/S04wkSLRK0Ae
+Emulator: 320px to 567px
+
+Browsers
+Firefox
+HP Team: fix the agents photo & slick. [screenshot] DONE: https://prnt.sc/ds1gPLtzMyPH
+Chrome 1366x768
+Floating SMI: can we reduce the size of the floating SMI a little? (phone icon is not clickable). [screenshot, screenshot] see both ss. DONE: https://prnt.sc/UOiKNNOIKwx7 , https://prnt.sc/Xv-dsXyE-dK-
+
+Validations
+All pages pass the mobile-friendly test (http://tinyurl.com/mfriendly) Note: Cannot crawl because of robot meta tag https://prnt.sc/QKZV64coUU2Y
+
+All pages pass HTML5 validation (https://html5.validator.nu/) Note: Pojo error https://prnt.sc/9EXCDwvbvGUF
+
+Homepage must score at least: please maintain the required score Note: Working on Score
+50 (Mobile) on https://developers.google.com/speed/pagespeed/insights 77 https://prnt.sc/AYOZgYzCJW22
+80 (Desktop) on https://developers.google.com/speed/pagespeed/insights 48 https://prnt.sc/5UKbPhSS3jjO
+B on https://gtmetrix.com/
+About page or the basic inner page template must score at least
+50 (Mobile) on https://developers.google.com/speed/pagespeed/insights https://prnt.sc/D3LCKKlpcko2
+80 (Desktop) on https://developers.google.com/speed/pagespeed/insights https://prnt.sc/8ds9q3eaqpTQ
+B on https://gtmetrix.com/ https://gtmetrix.com/reports/cederbraceycom.rs3n.aios-staging.com/CPohyLsD/
+
+Please let me know if you have any questions.
+Thank you. :)
+
+Revisions
+HP In the Area: alignment of bullet, see Comp. [screenshot] DONE: https://prnt.sc/zYY0j7riXUb9
+HP Featured Properties: missing fp? [screenshot] this space doesn't occur before Note: Lumipat na po yung slick https://prnt.sc/GufRG-CCEmTt
+
+Emulator: 922px to 1199px, Emulator: 320px to 991px
+HP QS: placeholders should not be cut. [screenshot] DONE https://prnt.sc/MXyNNHQp5j2l , https://prnt.sc/Qr9Nt0P2C4Au
+
+Emulator: 320px to 567px
+Footer: align this in the center too. [screenshot] DONE https://prnt.sc/R2Idtj5KgCB1
+
+Optimization
+Homepage must score at least: please maintain the required score
+50 (Mobile) on https://developers.google.com/speed/pagespeed/insights 46 https://prnt.sc/kYDZk0RFiRRW
+80 (Desktop) on https://developers.google.com/speed/pagespeed/insights DONE: https://prnt.sc/-VJqz8t783DE
+B on https://gtmetrix.com/ DONE: https://gtmetrix.com/reports/cederbraceycom.rs3n.aios-staging.com/rvsoe0sF/
+About page or the basic inner page template must score at least
+50 (Mobile) on https://developers.google.com/speed/pagespeed/insights DONE: https://prnt.sc/VMQQ1zYzUeSO
+80 (Desktop) on https://developers.google.com/speed/pagespeed/insights DONE: https://prnt.sc/qmlXHHQpj07n
+B on https://gtmetrix.com/ DONE https://gtmetrix.com/reports/cederbraceycom.rs3n.aios-staging.com/n7eYTY49/
+
+Please let me know if you have any questions.
+Thank you. :)
+
+Mobile 45 https://prnt.sc/ll-Yukl-rGtX, 50 https://prnt.sc/zZ3yzfP3KTID
